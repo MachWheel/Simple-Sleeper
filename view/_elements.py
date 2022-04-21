@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
-from resources import icons
-from resources.labels import *
+from . import _icons
+from ._labels import *
 
 sg.theme('DarkBlue')
 
@@ -58,13 +58,13 @@ BTN_STYLE = {
 
 APP_BTNS = (
     sg.Button(
-        image_data=icons.START(),
+        image_data=_icons.START(),
         **BTN_STYLE,
         tooltip=START_TOOLTIP,
         key="-START_BTN-"
     ),
     sg.Button(
-        image_data=icons.ABORT(),
+        image_data=_icons.ABORT(),
         **BTN_STYLE,
         tooltip=ABORT_TOOLTIP,
         key="-ABORT_BTN-"

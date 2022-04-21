@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
-from resources.gui import TITLE, TIME_SLIDER, APP_BTNS, MODE_SELECTOR
-from resources.labels import APP_TITLE
+from ._elements import TITLE, TIME_SLIDER, MODE_SELECTOR, APP_BTNS
+from ._labels import APP_TITLE
 
 
 def MAIN_WINDOW():

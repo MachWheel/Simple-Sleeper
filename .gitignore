@@ -2,7 +2,7 @@
 /.idea/
 /__pycache__/
 /turn_off.bat
-/resources/__pycache__/
+/view/__pycache__/
 /compile/dist/
 /compile/build/
 /compile/Simple-Sleeper.spec

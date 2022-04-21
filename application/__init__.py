@@ -1,13 +1,13 @@
 from os import startfile, remove
 from time import sleep
 
-from generator._partial import HEADER, FOOTER
+from ._partial import HEADER, FOOTER
 
 _TXTS_DIR = 'resources/partial'
 _OUTPUT_FILE = 'turn_off.bat'
 
 
-class Generator:
+class Application:
     def __init__(self, options: str):
         self._options = options
 

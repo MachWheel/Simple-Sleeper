@@ -1,9 +1,8 @@
-from application import Application
+from controller import Controller
 from view import MAIN_WINDOW
 
 
-def main(app: Application):
-
+def main(app: Controller):
     while True:
         status = app.read_events()
         if status == 'done':
@@ -12,4 +11,4 @@ def main(app: Application):
 
 
 if __name__ == '__main__':
-    main(Application(MAIN_WINDOW()))
+    main(Controller(MAIN_WINDOW()))
