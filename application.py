@@ -1,5 +1,5 @@
 from PySimpleGUI import read_all_windows, WIN_CLOSED
-from resources.generator import Generator
+from generator import Generator
 
 
 class Application:

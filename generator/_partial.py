@@ -1,0 +1,20 @@
+HEADER = """
+@ECHO OFF
+:: automatically generated file
+TITLE Simple Sleep
+ECHO:
+ECHO [Simple Sleep]
+ECHO:
+ECHO Running...
+ECHO:
+
+"""
+
+FOOTER = """
+
+ECHO:
+ECHO THE SHUTDOWN COMMAND WAS EXECUTED.
+ECHO RUN THE PROGRAM AGAIN IF YOU WANT TO ABORT IT.
+ECHO:
+PAUSE
+"""
