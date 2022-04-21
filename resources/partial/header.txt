@@ -1,8 +1,0 @@
-@ECHO OFF
-:: automatically generated file
-TITLE Simple Sleep
-ECHO:
-ECHO [Simple Sleep]
-ECHO:
-ECHO Running...
-ECHO:
