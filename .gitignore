@@ -1,7 +1,8 @@
 /venv/
 /.idea/
 /__pycache__/
+/turn_off.bat
 /resources/__pycache__/
-/resources/turn_off.bat
 /compile/dist/
 /compile/build/
+/compile/Simple-Sleeper.spec

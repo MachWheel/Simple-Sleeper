@@ -6,11 +6,18 @@ from resources.labels import *
 sg.theme('DarkBlue')
 
 TITLE = (
-    [sg.Text(
-        APP_TITLE,
-        font="Default 14 bold",
-        p=((10, 10), (20, 3)),
-    )],
+    [
+        sg.Text(
+            APP_TITLE,
+            font="Default 14 bold",
+            p=((0, 5), (20, 3)),
+        ),
+        sg.Text(
+            APP_VERSION,
+            font="Default 10 italic",
+            p=((0, 0), (20, 3)),
+        ),
+    ],
     [sg.Text(
         APP_SUBTITLE,
         font="Default 11 italic",

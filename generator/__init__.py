@@ -3,7 +3,7 @@ from os import startfile
 from generator._partial import HEADER, FOOTER
 
 _TXTS_DIR = 'resources/partial'
-_OUTPUT_FILE = 'resources\\turn_off.bat'
+_OUTPUT_FILE = 'turn_off.bat'
 
 
 class Generator:
