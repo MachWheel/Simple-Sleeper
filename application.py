@@ -1,3 +1,4 @@
+
 from PySimpleGUI import read_all_windows, WIN_CLOSED
 from generator import Generator
 
@@ -14,20 +15,14 @@ class Application:
         if event and '_SLIDER-' in event:
             return Application._update_display(state)
 
-
         if event == '-START_BTN-':
             options = Application._read_options(state)
-            Generator.make_turn_off_bat(options)
-            Generator.run_turn_off_bat()
+            Generator(options).execute_shutdown()
             return 'done'
-
 
         if event == '-ABORT_BTN-':
-            options = '/a'
-            Generator.make_turn_off_bat(options)
-            Generator.run_turn_off_bat()
+            Generator('/a').execute_shutdown()
             return 'done'
-
 
         if event == WIN_CLOSED:
             return 'done'
