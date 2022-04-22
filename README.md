@@ -15,7 +15,9 @@ The program works by making a simple Windows batch file,
 containing the SHUTDOWN command.
 
 If you want to know more about the Windows SHUTDOWN command and all of its 
-supported flags, [you can read it here](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown).
+supported flags, go to: 
+
+[shutdown @ Microsoft Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown)
 
 
 The user interface allows you to choose the desired shut down 
