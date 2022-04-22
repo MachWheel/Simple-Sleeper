@@ -4,6 +4,12 @@
 # How to use it
 ![MAIN_DEMO](https://s10.gifyu.com/images/simple-sleeper.gif)
 
+# How to install it
+There is no installation needed.
+
+Just download the zip file at Releases, extract it 
+and open the standalone .exe file.
+
 # How it works
 The program works by making a simple Windows batch file, 
 containing the SHUTDOWN command.
