@@ -26,6 +26,8 @@ pip install pyinstaller
 ### Easy way
 Just run the **compile.bat** file at the **compile directory** and it will do the job for you.
 
+![COMPILING](https://s10.gifyu.com/images/compile-simple-sleeper.gif)
+
 ### Manual way
 If you want to manually run PyInstaller, execute the following command **at the compile directory**:
 ```
