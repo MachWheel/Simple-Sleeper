@@ -11,21 +11,26 @@ Just download the zip file at [Releases](https://github.com/WyllerMachado/Simple
 and run the **standalone .exe file**.
 
 # How to compile it
-Simple Sleeper is compiled into a standalone .exe file using PyInstaller.
+Simple Sleeper is compiled into a **standalone .exe file** using **PyInstaller**.
 
-To do it, first you will need to:
-
-```
-pip install pyinstaller
-```
-
-If you want to know more about PyInstaller and all of its 
+If you want to know more about **PyInstaller** and all of its 
 supported features, go to: 
 
 [PyInstaller Manual @ PyInstaller 5.0 documentation](https://pyinstaller.org/en/stable/)
 
+### Requirements
+To do it, first you will need to:
+```
+pip install pyinstaller
+```
+### Easy way
+Just run the **compile.bat** file at the **compile directory** and it will do the job for you.
 
-
+### Manual way
+If you want to manually run PyInstaller, execute the following command **at the compile directory**:
+```
+pyinstaller -w --onefile ..\main.py --icon app_icon.ico --name Simple-Sleeper
+```
 
 # How it works
 The program works by making a simple Windows batch file, 
