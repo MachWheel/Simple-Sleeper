@@ -24,13 +24,16 @@ The user interface allows you to choose the desired shut down
 or restart time, which gets converted into seconds and copied 
 to /t flag of the command.
 
+### Supported modes
 Currently supported modes are **'Shut down'** and 
 **'Restart'**, using **/s** and **/r** flags respectively.
 
+### Scheduling
 When the **start** button (green) is pressed, the selected options are
 parsed into a temporary **'turn_off.bat'** file, which gets 
 executed (scheduling the shut down) and deleted afterwards
 
+### Aborting
 When the **abort** button (red) is pressed, the **/a** flag is
 parsed into a temporary **'turn_off.bat'** file, which gets 
 executed (aborting the scheduled shut down) and deleted afterwards.
