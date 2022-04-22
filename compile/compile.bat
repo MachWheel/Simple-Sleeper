@@ -1,5 +1,5 @@
 @ECHO OFF
-TITLE Compiling MessyFolderOrganizer...
+TITLE Compiling Simple-Sleeper...
 ECHO:
 ECHO This batch file compiles Simple-Sleeper application.
 ECHO The folder containing the generated app will be opened afterwards.
