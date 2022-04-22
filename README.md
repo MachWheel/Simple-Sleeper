@@ -7,28 +7,28 @@
 # How to install it
 There is no installation needed.
 
-Just download the zip file at Releases, extract it 
+Just download the zip file at [Releases](https://github.com/WyllerMachado/Simple-Sleeper/releases), extract it 
 and open the standalone .exe file.
 
 # How it works
 The program works by making a simple Windows batch file, 
 containing the SHUTDOWN command.
 
-If you want to read more about the Windows SHUTDOWN command and all of its supported flags, go to:
+If you want to know more about the Windows SHUTDOWN command and all of its 
+supported flags, [you can read it here](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown).
 
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown
 
 The user interface allows you to choose the desired shut down 
 or restart time, which gets converted into seconds and copied 
 to /t flag of the command.
 
-Currently supported modes are 'Shut down' and 
-'Restart', using /s and /r flags respectively.
+Currently supported modes are **'Shut down'** and 
+**'Restart'**, using **/s** and **/r** flags respectively.
 
-When the start button (green) is pressed, the selected options are
-parsed into a temporary *'turn_off.bat'* file, which gets 
+When the **start** button (green) is pressed, the selected options are
+parsed into a temporary **'turn_off.bat'** file, which gets 
 executed (scheduling the shut down) and deleted afterwards
 
-When the abort button is pressed, the /a option is
-parsed into a temporary *'turn_off.bat'* file, which gets 
+When the **abort** button (red) is pressed, the **/a** flag is
+parsed into a temporary **'turn_off.bat'** file, which gets 
 executed (aborting the scheduled shut down) and deleted afterwards.
