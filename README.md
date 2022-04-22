@@ -8,7 +8,24 @@
 There is no installation needed.
 
 Just download the zip file at [Releases](https://github.com/WyllerMachado/Simple-Sleeper/releases), extract it 
-and open the standalone .exe file.
+and run the **standalone .exe file**.
+
+# How to compile it
+Simple Sleeper is compiled into a standalone .exe file using PyInstaller.
+
+To do it, first you will need to:
+
+```
+pip install pyinstaller
+```
+
+If you want to know more about PyInstaller and all of its 
+supported features, go to: 
+
+[PyInstaller Manual @ PyInstaller 5.0 documentation](https://pyinstaller.org/en/stable/)
+
+
+
 
 # How it works
 The program works by making a simple Windows batch file, 
@@ -30,10 +47,17 @@ Currently supported modes are **'Shut down'** and
 
 ### Scheduling
 When the **start** button (green) is pressed, the selected options are
-parsed into a temporary **'turn_off.bat'** file, which gets 
-executed (scheduling the shut down) and deleted afterwards
+parsed into a temporary **'turn_off.bat'** file. For example, the demo 
+above gets parsed into a file containing: 
+```
+SHUTDOWN /s /f /t 8700
+```
+Then, the file gets executed (scheduling the shut down) and deleted afterwards.
 
 ### Aborting
 When the **abort** button (red) is pressed, the **/a** flag is
-parsed into a temporary **'turn_off.bat'** file, which gets 
-executed (aborting the scheduled shut down) and deleted afterwards.
+parsed into a temporary **'turn_off.bat'** file:
+```
+SHUTDOWN /a
+```
+which gets executed (aborting the scheduled shut down) and deleted afterwards.
