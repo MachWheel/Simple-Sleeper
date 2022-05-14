@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/2YV5fIc.png" alt="Simple Sleeper Logo" width="128" height="128"></p>
+<p align="center"><img src="https://i.imgur.com/G92v3px.png" alt="Simple Sleeper Logo"></p>
 <h1 align="center">Simple-Sleeper</h1>
 <p align="center"><i>A simple way to schedule a Windows shut down (or restart), with an easy to use interface.</i></p>
 
