@@ -18,15 +18,17 @@ supported features, go to:
 
 [PyInstaller Manual @ PyInstaller 5.0 documentation](https://pyinstaller.org/en/stable/)
 
-### Requirements
+## Requirements
 To do it, first you will need to:
 ```
 pip install pyinstaller
 ```
-### Easy way
+## Easy way
 Just run the **compile.bat** file at the **compile directory** and it will do the job for you.
 
-### Manual way
+![COMPILING](https://s10.gifyu.com/images/compile-simple-sleeper.gif)
+
+## Manual way
 If you want to manually run PyInstaller, execute the following command **at the compile directory**:
 ```
 pyinstaller -w --onefile ..\main.py --icon app_icon.ico --name Simple-Sleeper
@@ -46,11 +48,11 @@ The user interface allows you to choose the desired shut down
 or restart time, which gets converted into seconds and copied 
 to /t flag of the command.
 
-### Supported modes
+## Supported modes
 Currently supported modes are **'Shut down'** and 
 **'Restart'**, using **/s** and **/r** flags respectively.
 
-### Scheduling
+## Scheduling
 When the **start** button (green) is pressed, the selected options are
 parsed into a temporary **'turn_off.bat'** file. For example, the demo 
 above gets parsed into a file containing: 
@@ -59,7 +61,7 @@ SHUTDOWN /s /f /t 8700
 ```
 Then, the file gets executed (scheduling the shut down) and deleted afterwards.
 
-### Aborting
+## Aborting
 When the **abort** button (red) is pressed, the **/a** flag is
 parsed into a temporary **'turn_off.bat'** file:
 ```
