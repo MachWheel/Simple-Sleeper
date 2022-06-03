@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 
 from ._elements import TITLE, TIME_SLIDER, MODE_SELECTOR, APP_BTNS
 from ._labels import APP_TITLE
-
+from . import _icons
 
 def MAIN_WINDOW():
     return sg.Window(
@@ -16,5 +16,6 @@ def MAIN_WINDOW():
         size=(380, 230),
         element_justification='center',
         text_justification='center',
-        finalize=True
+        finalize=True,
+        icon=_icons.LOGO()
     )

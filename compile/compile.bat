@@ -8,7 +8,7 @@ ECHO If the result file is .notanexecutable, run the compiler again.
 ECHO:
 PAUSE
 MKDIR dist
-pyinstaller -w --onefile ..\main.py --icon app_icon.ico --name Simple-Sleeper
+pyinstaller -w --onefile ..\main.py --icon app_icon.ico --name Simple-Sleeper --splash splashfile.png
 ECHO:
 ECHO DONE! PRESS ANYTHING TO OPEN OUTPUT FOLDER
 ECHO:
